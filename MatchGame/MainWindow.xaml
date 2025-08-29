@@ -22,7 +22,7 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="0"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="0" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
         <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="1"><Run Language="pt-br" Text="?"/></TextBlock>
         <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="2"><Run Language="pt-br" Text="?"/></TextBlock>
         <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="3"><Run Language="pt-br" Text="?"/></TextBlock>
