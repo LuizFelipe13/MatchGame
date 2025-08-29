@@ -56,4 +56,9 @@ public partial class MainWindow : Window
             animalEmoji.RemoveAt(index); // Remove o emoji aleatório da lista para que ele não seja escolhido novamente
         }
     }
+
+    private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+    {
+
+    }
 }
