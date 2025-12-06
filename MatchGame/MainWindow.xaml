@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MatchGame"
         mc:Ignorable="d"
-        Title="Encontrando os pares dos animais" Height="450" Width="400">
+        Title="Encontrando os pares dos animais" Height="539" Width="400">
     <Grid x:Name="mainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -23,30 +23,41 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="0" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="1"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="2"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="3"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="4"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="0" Grid.Row="1"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="0" Grid.Row="2"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="0" Grid.Row="3"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="0" Grid.Row="4"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="1" Grid.Row="2"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="1" Grid.Row="3"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="1" Grid.Row="4"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="2" Grid.Row="1"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="2" Grid.Row="2"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="2" Grid.Row="3"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="2" Grid.Row="4"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="3" Grid.Row="1"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="3" Grid.Row="2"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="3" Grid.Row="3"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="3" Grid.Row="4"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="4" Grid.Row="1"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="4" Grid.Row="2"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="4" Grid.Row="3"><Run Language="pt-br" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="4" Grid.Row="4"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="1" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="2" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="3" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="4" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="0" Grid.Row="1" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="0" Grid.Row="2" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="0" Grid.Row="3" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="0" Grid.Row="4" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="1" Grid.Row="2" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="1" Grid.Row="3" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="1" Grid.Row="4" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="2" Grid.Row="1" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="2" Grid.Row="2" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="2" Grid.Row="3" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="2" Grid.Row="4" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="3" Grid.Row="1" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="3" Grid.Row="2" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="3" Grid.Row="3" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="3" Grid.Row="4" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="4" Grid.Row="1" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="4" Grid.Row="2" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="4" Grid.Row="3" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" VerticalAlignment="Center" Grid.Column="4" Grid.Row="4" MouseDown="TextBlock_MouseDown"><Run Language="pt-br" Text="?"/></TextBlock>
+        <TextBlock x:Name="timeTextBlock" HorizontalAlignment="Left" Grid.Row="5" TextWrapping="Wrap" Text="Elapsed time" VerticalAlignment="Top" RenderTransformOrigin="-0.173,0.463" 
+                   Width="272" FontSize="36" FontFamily="Dubai" MouseDown="TimerTextBlock_MouseDown" Grid.Column="1" Margin="32,0,0,0" Grid.ColumnSpan="4">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.054"/>
+                    <RotateTransform Angle="-0.156"/>
+                    <TranslateTransform Y="-0.018"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
 
 
 
